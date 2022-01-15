@@ -1,46 +1,49 @@
-# Getting Started with Create React App
+# 
+Get information about countries via a RESTful API https://restcountries.com/v2/
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Table of contents
 
-## Available Scripts
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Used](#used)
+  - [How to Run](#how-to-run)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
 
-In the project directory, you can run:
+## Overview
 
-### `yarn start`
+### The challenge
+- See all countries from the API on the home
+- Search for a country using an `input` field
+- Filter countries by region
+- Click on a country to see more detailed information on a separate page
+- Click through to the border countries on the detail page
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### Used
+1. React
+2. React-Router-Dom
+3. Sass
+4. Axios API
+5. React Hooks
+6. Typescript
+7. React icons
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+### How To Run
+1. Open terminal
+2. Change directory to the downloaded project
+3. Type `yarn intall`
+4. After the installation is complete type `yarn start`
 
-### `yarn test`
+### Screenshot
+![desktop-dark](design/desktop-001-dark.jpg)
+![desktop-dark](design/desktop-001-light.jpg)
+![desktop](design/desktop-002.jpg)
+![mobile-home](design/mobile-001.jpg)
+![mobile-detail](design/mobile-002.jpg)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Links
 
-### `yarn build`
+- Solution URL: [Click Here](https://github.com/UA/countries-app)
+- Live Site URL: [Click Here](https://countries-app-e56967.netlify.app/)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
