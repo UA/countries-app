@@ -1,0 +1,30 @@
+@import '../../styles/variables.scss';
+.container{
+    .header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-right: 4rem;
+        padding-left: 4rem;
+        margin-right: auto;
+        margin-left: auto;
+        & > * {
+          height: 48px;
+        }
+      
+      
+        @media screen and (max-width: $sm) {
+          flex-direction: column;
+          align-items: flex-start;
+          .input {
+            max-width: none;
+            margin-bottom: 2rem;
+          }
+        }
+        @media screen and (max-width: $md) {
+            padding-right: 1rem;
+            padding-left: 1rem;
+        }
+      }
+}
+
