@@ -4,20 +4,17 @@ Get information about countries via a RESTful API https://restcountries.com/v2/
 ## Table of contents
 
 - [Overview](#overview)
-  - [The challenge](#the-challenge)
+  - [Links](#links)
   - [Used](#used)
   - [How to Run](#how-to-run)
   - [Screenshot](#screenshot)
-  - [Links](#links)
+  
 
 ## Overview
 
-### The challenge
-- See all countries from the API on the home
-- Search for a country using an `input` field
-- Filter countries by region
-- Click on a country to see more detailed information on a separate page
-- Click through to the border countries on the detail page
+### Links
+- Solution URL: [Click Here](https://github.com/UA/countries-app)
+- Live Site URL: [Click Here](https://countries-app-e56967.netlify.app/)
 
 ### Used
 1. React
@@ -30,7 +27,7 @@ Get information about countries via a RESTful API https://restcountries.com/v2/
 
 ### How To Run
 1. Open terminal
-2. Change directory to the downloaded project
+2. $ git clone https://github.com/UA/countries-app.git
 3. Type `yarn intall`
 4. After the installation is complete type `yarn start`
 
@@ -41,9 +38,6 @@ Get information about countries via a RESTful API https://restcountries.com/v2/
 ![mobile-home](design/mobile-001.jpg)
 ![mobile-detail](design/mobile-002.jpg)
 
-### Links
 
-- Solution URL: [Click Here](https://github.com/UA/countries-app)
-- Live Site URL: [Click Here](https://countries-app-e56967.netlify.app/)
 
 
